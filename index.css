@@ -54,9 +54,7 @@ ul li{
     font-weight: bold;
     font-size:85px;
 }
-.banner-pic{
 
-}
 .banner{
     display: flex;
     justify-content:space-between;
@@ -73,9 +71,9 @@ ul li{
     margin: 10px;
 }
 .header{
-    background-image: url('images/developer.png'),url('images/header_bg.png');
+    background-image: url('images/developer.png'),url(images/header_bg.png);;
     background-repeat: no-repeat;
-    background-position:top left, bottom right ;
+    background-position:top left , bottom right ;
 }
 .section-title{
     font-size: 35px;
